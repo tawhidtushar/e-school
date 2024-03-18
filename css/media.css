@@ -1,0 +1,256 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+header{
+    padding: 0;
+}
+.logo{
+	width: 180px;
+}
+.menu ul li a{
+	margin-bottom: 6px;
+	padding: 0 10px !important;
+ }
+ .btn_sign{
+    margin-left: 5px;
+}
+.banner{
+	padding: 10px 0 60px;
+}
+.b_content{
+	text-align: center;
+}
+.b_h1{
+	font-size: 30px;
+	padding: 0 ;
+	line-height: 40px;
+}
+.b_p2{
+	padding: 0;
+	line-height: 25px;
+}
+.b_img{
+	padding: 0;
+	margin-bottom: 30px;
+}
+.c_padding{
+    padding: 0 0 60px;
+}
+.f_item{
+	margin: 20px 0 0;
+	padding: 45px 0 40px;
+}
+ .f_img{   
+    width: 60px;
+    height: 70px;
+    margin: 0 auto;
+ }
+ .f_h2{
+	font-size: 20px;
+	line-height: 30px;
+}
+.c_title h1{
+	font-size: 30px;
+	line-height: 44px;
+}
+.c_item{
+	margin: 20px 0 0;
+	padding: 15px 15px 15px;
+}
+.c_h2{
+	font-size: 20px;
+}
+.btn_c{
+	margin: 20px 0;
+}
+.lit:not(:last-child){
+   margin-right: 0;
+ }
+ .c_left ul li img,c_right ul li img{
+   width: 19px;
+ }
+ .c_left ul li p,.c_right ul li p{
+    font-weight: 400;
+    font-size: 14px;
+}
+.testimony{
+	padding-bottom: 60px;
+}
+.t_item{
+	margin-top: 30px;
+}
+.t_img{
+	padding: 0 60px 20px;
+}
+.t_text{
+	text-align: center;
+}
+.footer_top{
+	padding: 55px 0 20px;
+	text-align: center;
+}
+.ft_details{
+	margin-bottom: 35px;
+	padding-right: 0;
+}
+.ft_links{
+	margin-bottom: 35px;
+}
+
+  }
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+header{
+    padding: 0;
+}
+.logo{
+	width: 180px;
+}
+.menu ul li a{
+	margin-bottom: 6px;
+	padding: 0 10px !important;
+ }
+ .btn_sign{
+    margin-left: 5px;
+}
+.banner{
+	padding: 10px 0 60px;
+}
+.b_content{
+	text-align: center;
+}
+.b_h1{
+	font-size: 40px;
+	padding: 0 70px;
+	line-height: 55px;
+}
+.b_p2{
+	padding: 0 30px;
+	line-height: 30px;
+}
+.b_img{
+	padding: 0 50px;
+	margin-bottom: 30px;
+}
+.c_padding{
+    padding: 0 0 60px;
+}
+.f_item{
+	margin: 35px 0 0;
+	padding: 45px 0 40px;
+}
+ .f_img{   
+    width: 60px;
+    height: 70px;
+    margin: 0 auto;
+ }
+ .f_h2{
+	font-size: 20px;
+	line-height: 30px;
+}
+.c_title h1{
+	font-size: 30px;
+	line-height: 44px;
+}
+.c_item{
+	margin: 30px 30px 0;
+}
+.testimony{
+	padding-bottom: 60px;
+}
+.t_item{
+	margin-top: 30px;
+}
+.t_img{
+	padding: 0 120px 20px;
+}
+.t_text{
+	text-align: center;
+}
+.footer_top{
+	text-align: center;
+}
+ .ft_details{
+ 	margin-bottom: 35px;
+   padding-right: 70px;
+   padding-left: 70px;
+
+ }
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+.menu ul li a{
+	margin-bottom: 6px;
+	padding: 0 10px !important;
+ }
+ .btn_sign{
+    margin-left: 5px;
+}
+.b_content{
+	text-align: center;
+}
+.b_h1{
+	padding: 0 100px 0 ;
+}
+.b_p2{
+	padding: 0 60px;
+}
+.b_img{
+	padding: 0 70px;
+	margin-bottom: 30px;
+}
+.c_padding{
+    padding: 0 0 80px;
+}
+.c_item{
+	margin: 40px 120px 0;
+}
+.testimony{
+	padding-bottom: 80px;
+}
+.c_item{
+	margin-top: 40px;
+}
+.footer_top{
+	text-align: center;
+}
+ .ft_details{
+ 	margin-bottom: 35px;
+   padding-right: 80px;
+   padding-left: 80px;
+
+ }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+.f_h2{
+	font-size: 20px;
+}
+.lit:not(:last-child){
+   margin-right: 0;
+ }
+ .c_left ul li img,c_right ul li img{
+   width: 19px;
+ }
+ .c_left ul li p,.c_right ul li p{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+ }
+
+/* extra extra Large devices (desktops, 1400px and up)*/
+@media (min-width: 1400px)  { 
+
+.ft_details{
+	padding-right: 130px;
+}
+}
